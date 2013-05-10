@@ -1,6 +1,6 @@
 {
   "name": "redisurl",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Create a redis client from a url",
   "main": "index.js",
   "scripts": {
