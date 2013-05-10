@@ -11,7 +11,7 @@ var redis = require("redis")
  * @api public
  */
 module.exports = function(redisUrl) {
-  var options = url.parse(redisUrl || "redis://localhost:6379")
+  var options = url.parse(redisUrl || process.env.REDIS_URL || "redis://localhost:6379")
     , client = redis.createClient(options.port, options.hostname);
 
   // Authorize the connection
