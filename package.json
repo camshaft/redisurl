@@ -1,0 +1,28 @@
+{
+  "name": "redis-url",
+  "version": "0.1.0",
+  "description": "Create a redis client from a url",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CamShaft/redis-url.git"
+  },
+  "keywords": [
+    "redis",
+    "client",
+    "url"
+  ],
+  "peerDependencies": {
+    "redis": "~0.8.3"
+  },
+  "author": "Cameron Bytheway <cameron@nujii.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "should": "~1.2.2",
+    "mocha": "~1.9.0",
+    "redis": "~0.8.3"
+  }
+}
