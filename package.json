@@ -16,9 +16,9 @@
     "url"
   ],
   "peerDependencies": {
-    "redis": "~0.12.1"
+    "redis": "*"
   },
-  "author": "Cameron Bytheway <cameron@nujii.com>",
+  "author": "Cameron Bytheway <bytheway.cameron@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "should": "~6.0.3",
