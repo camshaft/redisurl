@@ -1,6 +1,6 @@
 {
   "name": "redisurl",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Create a redis client from a url",
   "main": "index.js",
   "scripts": {
@@ -16,13 +16,13 @@
     "url"
   ],
   "peerDependencies": {
-    "redis": "~0.8.3"
+    "redis": "~0.12.1"
   },
   "author": "Cameron Bytheway <cameron@nujii.com>",
   "license": "MIT",
   "devDependencies": {
-    "should": "~1.2.2",
-    "mocha": "~1.9.0",
-    "redis": "~0.8.3"
+    "should": "~6.0.3",
+    "mocha": "~2.2.5",
+    "redis": "~0.12.1"
   }
 }
